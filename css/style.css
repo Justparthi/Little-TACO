@@ -1,0 +1,50 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+
+
+img{
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgba(255, 242, 240, 0.359);
+}
+
+.front{
+    background-image: url('../img/background.png');
+}
+
+p, h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+th, td, caption {
+    border: 1px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+    
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+}
+
+.end{
+    background-image: url('../img/footer5.png');
+}
+
+
+.nav-item:hover,
+  .nav-item:focus{
+    color: black;
+    background-color: rgb(238, 210, 151);
+    border-radius: 30px;
+  }
+
